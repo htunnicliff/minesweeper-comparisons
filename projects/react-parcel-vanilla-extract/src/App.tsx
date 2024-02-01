@@ -1,7 +1,7 @@
 import clsx from "clsx";
-import { themeStyle } from "../theme.css";
 import "./App.css";
 import { appStyle } from "./App.css";
+import { themeStyle } from "./theme.css";
 
 export function App() {
   return (
