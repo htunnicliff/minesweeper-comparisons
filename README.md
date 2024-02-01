@@ -21,11 +21,11 @@ The ideal outcome will be a clear delineation of the pros and cons of each combi
 
 ## Implementations
 
-| Name                  | Technologies                    | Stage    |
-| --------------------- | ------------------------------- | -------- |
-| react-vanilla-extract | React, Vite, Vanilla Extract    | Upcoming |
-| vue                   | Vue, Vite                       | Upcoming |
-| laravel-vue-real-time | Laravel, Vue, Vite, Web Sockets | Upcoming |
+| Name                         | Technologies                    | Stage       |
+| ---------------------------- | ------------------------------- | ----------- |
+| react-parcel-vanilla-extract | React, Parcel, Vanilla Extract  | In Progress |
+| vue                          | Vue, Vite                       | Upcoming    |
+| laravel-vue-real-time        | Laravel, Vue, Vite, Web Sockets | Upcoming    |
 
 ## Reference
 
