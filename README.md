@@ -31,23 +31,23 @@ The ideal outcome will be a clear delineation of the pros and cons of each combi
 
 These are known frameworks at the time of writing. Implementations for all will be unlikely, but the goal is to cover a wide range of options that delineates trade-offs clearly. For example, implementing Minesweeper in React versus Preact is unlikely to yield much insight, but implementing it in React and Svelte would.
 
-Items annotated in **bold** are of chief interest.
+Items annotated with a star (⭐️) are of chief interest.
 
 ### Frontend Frameworks and Libraries
 
-- Alpine
-- Angular
-- HTMX
-- **Inertia**
-- **Lit**
-- Livewire
-- Preact
-- Qwik
-- **React**
-- Solid
-- **Svelte**
+- [Alpine](https://alpinejs.dev/)
+- [Angular](https://angular.io/)
+- [HTMX](https://htmx.org/)
+- [Inertia](https://inertiajs.com/) ⭐️
+- [Lit](https://lit.dev/) ⭐️
+- [Livewire](https://livewire.laravel.com/)
+- [Preact](https://preactjs.com/)
+- [Qwik](https://qwik.dev/)
+- [React](https://react.dev/) ⭐️
+- [Solid](https://www.solidjs.com/)
+- [Svelte](https://svelte.dev/) ⭐️
 - Vanilla JavaScript
-- **Vue**
+- [Vue](https://vuejs.org/) ⭐️
 
 ### Backend Frameworks
 
@@ -55,31 +55,31 @@ For the purposes of this project, batteries-included frameworks (e.g. Laravel, R
 
 #### Battieries-Included
 
-- Adonis
-- Django
-- **Laravel**
-- Nest
-- **Rails**
-- **Redwood**
+- [Adonis](https://adonisjs.com/)
+- [Django](https://www.djangoproject.com/)
+- [Laravel](https://laravel.com/) ⭐️
+- [Nest](https://nestjs.com/)
+- [Redwood](https://redwoodjs.com/) ⭐️
+- [Ruby on Rails](https://rubyonrails.org/) ⭐️
 
 #### Minimalist
 
-- Hono
-- Next
-- Nuxt
-- Remix
-- Deno Fresh
-- **Service Worker (Progressive Web App)**
-- SvelteKit
-- tRPC
+- [Hono](https://hono.dev/)
+- [Next](https://nextjs.org/)
+- [Nuxt](https://nuxt.com/)
+- [Remix](https://remix.run/)
+- [Deno Fresh](https://fresh.deno.dev/)
+- Service Worker (Progressive Web App) ⭐️
+- [SvelteKit](https://kit.svelte.dev/)
+- [tRPC](https://trpc.io/)
 
 ### Data Stores
 
 - Browser IndexedDB
 - Browser Local Storage
 - File System
-- **PostgreSQL**
-- **Redis**
+- PostgreSQL ⭐️
+- Redis ⭐️
 - Sqlite
 
 ### Real-time Technologies
@@ -88,22 +88,22 @@ Using a real-time technology in conjuction with [CRDTs][crdt-wikipedia].
 
 - Long Polling
 - Server Sent Events
-- **Web Sockets**
-- **WebRTC**
+- Web Sockets ⭐️
+- WebRTC ⭐️
 
 ### Bundlers
 
-- esbuild
-- **Parcel**
-- SWC
-- Turbopack
-- **Vite**
+- [esbuild](https://esbuild.github.io/)
+- **[Parcel](https://parceljs.org/)**
+- [SWC](https://swc.rs/)
+- [Turbopack](https://turbo.build/pack)
+- **[Vite](https://vitejs.dev/)**
 
 ### Miscellaneous Libraries
 
-- Vanilla Extract
-- CSS Modules
-- Tailwind
+- [Vanilla Extract](https://vanilla-extract.style/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+- [Tailwind](https://tailwindcss.com/)
 
 ## Minesweeper Rules
 
