@@ -105,4 +105,32 @@ Using a real-time technology in conjuction with [CRDTs][crdt-wikipedia].
 - CSS Modules
 - Tailwind
 
+## Minesweeper Rules
+
+### Game Description
+
+The game board is a rectangular grid; placed randomly within the grid are “mines”. (The grid size and number of mines are user-configurable but default to 8×8 with 10 mines.)
+
+Initially, all grid squares are “hidden”.
+
+The player chooses one square at a time to “reveal”. If the square contains a mine, the player loses and the game is over.
+
+Otherwise, the square is changed to show the total number of immediate neighbor squares (diagonal and orthogonal) that contain mines (with a maximum of 8). If no neighboring squares contain mines (i.e., the count for this square is 0), then all neighboring squares are automatically revealed. (And if one of those squares has no neighbors that are mines, then all its neighbors are automatically revealed, and so on.)
+
+The player can choose to “flag” a square that they think might contain a mine. This has no impact on game play; it is just to help the player record their guesses.
+
+When the player has revealed every non-mine square, they win.
+
+### Minimal Game Functionality
+
+- Create data structures to represent an 8×8 grid
+- Lay 10 mines in random locations
+- For each square, calculate the total number of immediate neighbors that contain mines
+- Display the board to the user (with all squares “hidden”)
+- Accept user input to reveal or flag a square
+  - If the square is a mine, the game is over
+  - If the square has non-zero mine neighbors, display its count
+  - If the square has zero mine neighbors, reveal all adjacent squares
+- Repeat until the player has revealed all non-mine squares
+
 [crdt-wikipedia]: https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
