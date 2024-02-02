@@ -1,12 +1,17 @@
-import clsx from "clsx";
-import "./App.css";
-import { appStyle } from "./App.css";
-import { themeStyle } from "./theme.css";
+import "./theme.css";
+import "./reset.css";
+
+import { GameBoard } from "./components/GameBoard";
+import { Header } from "./components/Header";
+import { app } from "./App.css";
 
 export function App() {
   return (
-    <div className={clsx([themeStyle, appStyle])}>
-      <h1>Hello world!</h1>
+    <div className={app}>
+      <Header />
+      <main>
+        <GameBoard />
+      </main>
     </div>
   );
 }
